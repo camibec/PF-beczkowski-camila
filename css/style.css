@@ -1,0 +1,212 @@
+/* Reset - configuración básica de los estilos 
+
+Unidades de medida:
+100% - porcentaje pantalla
+100vw - view width - ancho pantalla
+100vh - view height - alto pantalla
+px - pixel - medida fija
+
+REM -> tamaño de medida base (16px - basado en tamaño por default en root)
+EM -> especificamos el tamaño base en reset 
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* body */
+
+body {
+    background-color: #ffffff;
+}
+
+/* header */
+
+header {
+    background-color: #ffffff;
+}
+
+.menu-logo {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.nav-link {
+    color:#bc745c;
+    font-weight: bold;
+}
+
+.nav-link :active {
+    color: #9c4527;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #9c4527;
+}
+
+.navbar-nav .nav-link.active {
+    color: #9c4527;
+}
+
+/* main */
+
+.carousel-inner img {
+    width: 100%;
+
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-title {
+    color:#ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.card-img {
+    opacity: 0.8;
+}
+
+
+h1 {
+    color:#9c4527;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.article-title {
+    margin: 15px 15px;
+}
+
+.img-comidas-index {
+    width: 100%;
+}
+
+h2 {
+    color:#9c4527;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* footer */
+
+footer {
+    background-color: #bc745c;
+    margin-top: 30px;
+}
+
+.card-footer {
+    padding: 20px;
+}
+
+footer h3 {
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* menu */
+.article-menu-comidas {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.img-menu-comidas {
+    width: 100%;
+    
+}
+
+p {
+    color:#9c4527;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* nuestra historia */
+
+.article-nuestra-historia {
+    /*margin: 20px;*/
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}
+
+.card-historia {
+    border: none;
+}
+
+/* contacto */
+form {
+    padding: 20px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:#9c4527;
+}
+
+input, 
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-form {
+    background-color: #9c4527;
+    color:#ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* delivery */
+
+.card-delivery {
+    border: none;
+}
+
+/* responsive: */
+
+/* Tablet */
+@media (max-width:1023px) {
+    /* header */
+    
+}
+
+/* Celular */
+@media (max-width:768px) {
+    /* header */
+    .card-section-carousel {
+        display: none;
+    }
+}
