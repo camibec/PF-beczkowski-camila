@@ -16,8 +16,6 @@ EM -> especificamos el tamaño base en reset
     font-family: 'Lato', sans-serif;
 }
 
-
-
 /* body */
 
 body {
@@ -93,14 +91,22 @@ h1 {
     font-weight: 700;
     font-size: 50px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.h1-mobile {
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.article-h1-mobile {
+    background-color: #bc745c;
 }
 
 .article-title {
     margin: 15px 15px;
-}
-
-.img-comidas-index {
-    width: 100%;
 }
 
 h2 {
@@ -108,6 +114,7 @@ h2 {
     font-weight: bold;
     font-size: 30px;
 }
+
 
 /* footer */
 
@@ -198,12 +205,10 @@ textarea {
     border: none;
 }
 
-
-
 /* responsive: */
 
 /* Tablet */
-@media (max-width:1023px) {
+@media (min-width:768px) and (max-width:992px) {
     /* header */
     .card-section-img-mobile {
         display: none;
@@ -212,14 +217,15 @@ textarea {
 }
 
 /* Celular */
-@media (max-width:768px) {
+@media (max-width:480px) {
     /* header */
     .card-section-carousel {
         display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+    /* header */
     .card-section-img-mobile {
         display: none;
     }
