@@ -56,13 +56,16 @@ header {
 
 /* main */
 
-.carousel-inner img {
-    width: 100%;
-
+.carousel .carousel-item {
+    height: 500px;
 }
 
-.carousel-inner{
-    height: 400px;
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
 }
 
 .card-section {
@@ -86,7 +89,7 @@ header {
 
 
 h1 {
-    color:#9c4527;
+    color:#ffffff;
     font-weight: 700;
     font-size: 50px;
     text-transform: uppercase;
@@ -195,11 +198,16 @@ textarea {
     border: none;
 }
 
+
+
 /* responsive: */
 
 /* Tablet */
 @media (max-width:1023px) {
     /* header */
+    .card-section-img-mobile {
+        display: none;
+    }
     
 }
 
@@ -207,6 +215,12 @@ textarea {
 @media (max-width:768px) {
     /* header */
     .card-section-carousel {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-section-img-mobile {
         display: none;
     }
 }
