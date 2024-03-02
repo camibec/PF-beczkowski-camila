@@ -4,4 +4,179 @@
   font-family: "Lato", sans-serif;
 }
 
+/* body */
+body {
+  background-color: #ffffff;
+}
+
+/* header */
+header {
+  background-color: #ffffff;
+}
+
+.menu-logo {
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  color: #bc745c;
+}
+.navbar-nav .nav-link:active {
+  color: #9c4527;
+}
+.navbar-nav .nav-link:hover {
+  color: #9c4527;
+}
+.navbar-nav .nav-link.active {
+  color: #9c4527;
+}
+
+/* main */
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.card {
+  margin: 20px;
+  /* delivery */
+  /*nuestra historia*/
+}
+.card-section {
+  text-align: center;
+}
+.card-title {
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.card-img {
+  opacity: 0.8;
+}
+.card-delivery {
+  border: none;
+}
+.card-historia {
+  border: none;
+}
+
+.article-title {
+  margin: 15px 15px;
+}
+.article-title h2 {
+  font-weight: bold;
+  color: #9c4527;
+}
+
+h1 {
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h1-mobile {
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*menu*/
+p {
+  font-weight: 300;
+  color: #9c4527;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.article {
+  /* img mobile */
+  /* menu */
+  /* nuestra historia */
+}
+.article-h1-mobile {
+  background-color: #bc745c;
+}
+.article-menu-comidas {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 40%;
+}
+.article-nuestra-historia {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 40%;
+}
+
+/* contacto */
+form {
+  margin: 20px;
+  padding: 20px;
+}
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn-form {
+  background-color: #9c4527;
+  color: #ffffff;
+  border: none;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background-color: #bc745c;
+  margin-top: 30px;
+}
+footer h3 {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card-footer {
+  padding: 20px;
+}
+
+/* responsive: */
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* header */
+  .card-section-img-mobile {
+    display: none;
+  }
+}
+/* Celular */
+@media (max-width: 480px) {
+  /* header */
+  .card-section-carousel {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  /* header */
+  .card-section-img-mobile {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

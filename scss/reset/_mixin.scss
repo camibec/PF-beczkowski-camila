@@ -1,0 +1,15 @@
+@mixin fonts($weight, $color) {
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin aligns($disp, $marginb, $w) {
+    display: $disp;
+    margin-bottom: $marginb;
+    width: $w;
+}
+
+@mixin espacios($m, $p) {
+    margin: $m;
+    padding: $p;
+}

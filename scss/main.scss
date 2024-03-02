@@ -2,6 +2,7 @@
 
 @import './reset/vars';
 @import './reset/reset';
+@import './reset/mixin';
 
 // estructura
 
@@ -10,3 +11,5 @@
 @import 'footer';
 
 // meadia queries
+
+@import './reset/responsive';

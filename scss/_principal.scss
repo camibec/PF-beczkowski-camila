@@ -1,0 +1,115 @@
+/* main */
+
+.carousel {
+    .carousel-item {
+        height: 500px;
+        img {
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+    }
+}
+
+
+.card {
+    margin: 20px;
+
+    &-section {
+        text-align: center;
+    }
+
+    &-title {
+        @include fonts(bold, $color-blanco);
+        text-transform: uppercase;
+    }
+
+    &-img {
+        opacity: 0.8;
+    }
+
+    /* delivery */
+    &-delivery {
+        border: none;
+    }
+
+    /*nuestra historia*/
+    &-historia {
+        border: none;
+    }
+}
+
+.article-title {
+    margin: 15px 15px;
+
+    h2 {
+        @include fonts(bold, $color-oscuro);
+    }
+}
+
+h1 {
+    @include fonts(700, $color-blanco);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.h1 {
+    &-mobile {
+        @include fonts(700, $color-blanco);
+        text-align: center;
+    }
+}
+
+/*menu*/
+
+p {
+    @include fonts(300, $color-oscuro);
+    @include espacios(20px, 20px);
+    font-size: map-get($map: $size-text, $key: text-p);
+}
+
+
+.article {
+
+    /* img mobile */
+    &-h1-mobile {
+        background-color: $color-claro;
+    }
+
+    /* menu */
+    &-menu-comidas {
+        @include aligns(inline-block, 15px, 40%);
+    }
+
+    /* nuestra historia */
+    &-nuestra-historia {
+        @include aligns(inline-block, 15px, 40%);
+    }
+}
+
+
+/* contacto */
+
+form {
+    @include espacios(20px, 20px);
+    
+    input, 
+    textarea {
+        @include aligns(block, 10px, 100%);
+        padding: 10px;
+        font-size: map-get($map: $size-text, $key: text-input-textarea);
+    }
+}
+
+.btn-form {
+    background-color: $color-oscuro;
+    color:$color-blanco;
+    border: none;
+    @include espacios(20px, 10px 20px);
+    border-radius: 5px;
+    font-size: map-get($map: $size-text, $key: text-btn);
+    cursor: pointer;
+}

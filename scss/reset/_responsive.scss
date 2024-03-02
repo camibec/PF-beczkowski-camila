@@ -1,0 +1,25 @@
+/* responsive: */
+
+/* Tablet */
+@media (min-width:768px) and (max-width:992px) {
+    /* header */
+    .card-section-img-mobile {
+        display: none;
+    }
+    
+}
+
+/* Celular */
+@media (max-width:480px) {
+    /* header */
+    .card-section-carousel {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    /* header */
+    .card-section-img-mobile {
+        display: none;
+    }
+}
