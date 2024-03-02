@@ -148,13 +148,23 @@ footer {
   background-color: #bc745c;
   margin-top: 30px;
 }
-footer h3 {
+footer h4 {
   font-weight: 400;
   color: #ffffff;
 }
 
 .card-footer {
   padding: 20px;
+}
+
+.redes {
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.text-footer {
+  text-align: right;
 }
 
 /* responsive: */

@@ -4,11 +4,21 @@ footer {
     background-color: $color-claro;
     margin-top: 30px;
 
-    h3 {
+    h4 {
         @include fonts(400, $color-blanco);
     }
 }
 
 .card-footer {
     padding: 20px;
+}
+
+.redes {
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.text-footer {
+    text-align: right;
 }
