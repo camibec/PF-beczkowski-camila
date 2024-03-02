@@ -13,8 +13,9 @@ Desarrollo web - Coderhouse
 
 ## Tecnologias
 ```sh
-HTML
+HTML5
 Bootstrap
 css
 sass
+git
 ```
