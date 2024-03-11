@@ -131,6 +131,12 @@ form textarea {
   padding: 10px;
   font-size: 16px;
 }
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #9c4527;
+  text-align: left;
+}
 
 .btn-form {
   background-color: #9c4527;
@@ -148,9 +154,10 @@ footer {
   background-color: #bc745c;
   margin-top: 30px;
 }
-footer h4 {
+footer h3 {
   font-weight: 400;
   color: #ffffff;
+  font-size: 20px;
 }
 
 .card-footer {

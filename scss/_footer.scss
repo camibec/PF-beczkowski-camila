@@ -4,8 +4,9 @@ footer {
     background-color: $color-claro;
     margin-top: 30px;
 
-    h4 {
+    h3 {
         @include fonts(400, $color-blanco);
+        font-size: 20px;
     }
 }
 

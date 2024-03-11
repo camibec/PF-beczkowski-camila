@@ -102,6 +102,13 @@ form {
         padding: 10px;
         font-size: map-get($map: $size-text, $key: text-input-textarea);
     }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color:#9c4527;
+        text-align: left;
+    }
 }
 
 .btn-form {
